@@ -1,5 +1,6 @@
 # Wetting-investigation
 Third year computational lab, code used to model the wetting transition.
+For the Python code, you will need to uncommment the desired parts to run the code. 
 
 The file titled "Problem12.py" contains Python 3 code for problems 8-12 inclusive. 
 This means it can be used to numerically calulate equilibrium densities, plot 2D density maps, 1D density vs distance plots, and adsorption plots.
