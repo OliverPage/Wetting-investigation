@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Oct 22 12:26:04 2020
+
+@author: oliverpage
+"""
+import scipy 
+import numpy as np
+import matplotlib.pyplot as plt
+
+gamma = np.linspace(-5, 0, 100) 
+x = np.linspace(0, 2)
+
+func = lambda rho, x, gamma : rho - (1-rho)*np.exp((gamma/x) + 5*rho/x) # LHS of eq. 45
+
+scipy.optimize.brentq(func, 0, 1)
+
+
+# -------------------------------------------------------------------
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
