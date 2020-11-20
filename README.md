@@ -12,5 +12,6 @@ Droplet_Iterations.gif shows show the final state of the droplet changes after N
 
 Wall Interaction.gif shows the final states as the dimensionless wall interaction strength, βε_w, is increased in increments of 0.4 from 0.0 to 6.0. This uses 100 iterations (to save on compuatational time), on a 30x30 lattice, using μ/ε = -2.53.
 Wall Interaction 2.gif does the same thing under the same parameters, but in steps of 0.2 from 0.0 to 4.0.
+Wall Interaction 2.gif (in my opinion) is the better of the two animations.
 
 Problem 6.py calculates the equilibrium density of a fluid via graphical methods.  
